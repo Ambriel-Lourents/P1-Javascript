@@ -1,0 +1,3 @@
+IDBKeyRange
+rgb
+var
