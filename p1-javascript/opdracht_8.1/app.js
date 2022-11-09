@@ -1,7 +1,6 @@
-let p = document.getElementById("para")
-const g1 = document.getElementById("getal1")
-const g2 = document.getElementById("getal2")
-
+let p = document.getElementsByClassName("txt")
+const g1 = document.getElementsByClassName("getal1")
+const g2 = document.getElementsByClassName("getal2")
 
 function multiply(){
     p.innerText = `antwoord = ${g1.value * g2.value}`;;
